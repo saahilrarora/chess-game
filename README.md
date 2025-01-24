@@ -1,6 +1,6 @@
 # Chessboard Implementation
 
-This project is a TypeScript-based chessboard implementation that provides functionality to set up, manipulate, and analyze a chess game state. The code models chess pieces, their movement, and game rules such as check detection, castling, and en passant.
+This project is a TypeScript-based chessboard implementation that provides functionality to play a chess game. The code models chess pieces, their movement, and game rules such as check/checkmate detection, castling, and en passant.
 
 ## Features
 
@@ -25,7 +25,7 @@ This project is a TypeScript-based chessboard implementation that provides funct
 
   - Castling (both kingside and queenside).
   - En passant capture.
-  - Pawn promotion (to be implemented).
+  - Pawn promotion 
 
 ## Installation
 
@@ -74,16 +74,6 @@ console.log(board.safeSquares); // Get safe squares for the player
 
 ## Future Improvements
 
-- Implement pawn promotion logic.
 - Add support for move history and undo functionality.
-- Create a graphical user interface using Angular.
-- Implement AI to play against the computer.
-
-## Contributing
-
-Feel free to submit issues and pull requests to improve the project. Ensure code follows best practices and is well-documented.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+- Implement Stockfish API
 
