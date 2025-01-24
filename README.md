@@ -70,10 +70,25 @@ console.log(board.safeSquares); // Get safe squares for the player
   - `Bishop`
   - `Queen`
   - `King`
-- **Models**: Contains supporting data structures such as `Color`, `Coords`, `CheckState`, `LastMove`, and `SafeSquares`.
+
+# Chessboard Models
+
+## Coords
+Represents a coordinate on the chessboard with x and y values.
+Implemented as an object with two properties to easily reference and manipulate positions.
+
+## CheckState
+Tracks whether a player is in check and optionally stores the position of the king in check.
+Implemented as an object with properties to track check status and coordinates if needed.
+
+## LastMove
+Stores details of the last move made, including piece type, previous position, and current position.
+Implemented as an object to allow easy access to move-related data for game rules like en passant.
 
 ## Future Improvements
 
 - Add support for move history and undo functionality.
 - Implement Stockfish API
+
+
 
